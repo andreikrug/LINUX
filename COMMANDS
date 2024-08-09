@@ -1,0 +1,24 @@
+ls -l = lista detalhada de arquivos
+
+ls -a = mostrar arquivos ocultos
+
+ls -la = mostra lista detalhada e os arquivos ocultos
+
+ls -lh = mostra o tamanho dos arquivos em kbs
+
+ls -ltr = mostra a listagem detalhada ordenado por ordem de modificação
+
+clear = limpa o terminal
+
+cat + nome do arquivo = imprime o conteúdo do arquvi
+
+touch = criar arquivo
+
+history = busca comandos que já usamos no linux
+-> Podemos dar ctrl + r para pesquisar por palavra chave
+
+mkdir + nome = criar diretório
+
+rm + arquivo.extensao = remover arquivo
+
+rm -i + arquivo = colocar pergunta de confirmação antes de remover
