@@ -22,3 +22,44 @@ mkdir + nome = criar diretório
 rm + arquivo.extensao = remover arquivo
 
 rm -i + arquivo = colocar pergunta de confirmação antes de remover
+
+touch - também modifica a data de modificação de um arquivo
+
+mv - Podemos copiar um arquivo para outro, mas ele irá apagar o arquivo antigo; Podemos mover para outro arquivo ( mv teste dir1/teste2) vai apagar do diretório de origem e irá mover para o novo diretório.
+-> Podemos inclusive mover tudo que há em um diretório para outro ( mv dir1/* dir2/ )
+
+apt-get update -> Procura por novas versões dos apps que temos no sistema operacional
+-> Esse comando exige permisão de super usuário ( sudo apt-get update) 
+
+sudo apt-get upgrade = atualizar os pacotes do sistema
+
+ctrl + alt + t = abrir terminal 
+
+sudo apt-get install nomepacote = instalar pacote/dependência no linux 
+
+tree = pacote para mostrar arquivos do sistema em formato de árvore com suas subpastas e subarquivos
+
+sudo apt-get purge nomepacote = para remover um pacote ou dependência instalado no sistema
+
+sudo apt-get dist-upgrad = comando para atualizar o sistema operacional com novas versões disponíveis
+
+sudo adduser teste = adicionar novo user no sistema 
+
+getent passwb = mostrar usuários do sistema
+
+sudo userdel --remove teste = remover usuário 
+
+getent group = exibe os grupos no sistema 
+
+sudo groupadd devs = criar um grupo  
+
+sudo groupdel devs = apagar um grupo
+
+sudo usermod -a -G devs teste = adiciona o usuário teste ao grupo devs
+
+sudo su = passamos a ter permissão de root durante toda a sessão do terminal
+
+top = verificar processos rodando 
+-> ctrl + c para sair do top 
+
+pacote: htop -> Mostra os serviçoes uma forma mais legivel e fácil de ver 
